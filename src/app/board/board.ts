@@ -56,7 +56,7 @@ export interface Port {
 
 /**
  * A "beach" represents the border of the catan board. They have no functional point in the game,
- * but they orient the user as to how the board is layed out.
+ * but they orient the user as to how the board is laid out.
  */
 export interface Beach {
   // The connection numbers that appear on the sides of the beach piece. In order from left-to-right

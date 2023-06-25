@@ -1,15 +1,15 @@
 /**
  * In order to provide the "Number Distribution" slider, we must know what the min and
  * max score values are for each strategy. This file is for generating that data.
- * 
+ *
  * Run this by calling calculateStrategyScores() from your browser console.
- * Seriously? Yes. Unfortuntely, I couldn't figure out how to let you run this as a
+ * Seriously? Yes. Unfortunately, I couldn't figure out how to let you run this as a
  * stand-alone node script, because everything has to be difficult.
- * 
+ *
  * This works by generating a large number of totally "greedy" and totally "fair" boards
  * to determine the average value for each of those. This lets us treat those as min/max
- * values when determing what the target score of 60% between "greedy" and "fair" should be.
- * 
+ * values when determining what the target score of 60% between "greedy" and "fair" should be.
+ *
  * We know the target score for totally "greedy" and "fair" implicitly because we use
  * "0" and "infinity" respectively.
  */
